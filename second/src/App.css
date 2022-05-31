@@ -1,3 +1,5 @@
+
+* { box-sizing: border-box; }
 .App {
   text-align: center;
 }
@@ -13,30 +15,24 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap:1em;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 576px) {
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto !important;
+      grid-template-rows: auto;
+      gap:1em;
+    }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
+@media only screen and (max-width: 900px) {
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap:1em;
+    }
 }

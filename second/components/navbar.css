@@ -1,0 +1,42 @@
+.container {
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:20px;
+    background-color: rgba(2, 23, 26, 0.185);
+    color:white;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .container {
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* padding:20px; */
+    }
+    .search {
+        width:40px;
+    }
+}
+
+.left {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.search {
+    width:300px;
+}
+
+.right {
+    padding-right: 40px !important;
+}
+
+button {
+    padding:1px;
+    font-size: 12px;
+    margin:10px;
+}
