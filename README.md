@@ -1,5 +1,4 @@
 # challenges-test-
-Frontend Assignment
 
 ##Local Setup (Require Yarn)
 1. git clone and cd in first/second
@@ -18,6 +17,6 @@ It is simple grid of photos coming from api with search option to search any pho
 
 #Images
 
-![challenge1]('./image.png)
+![challenge1]('./image.png')
 
 P.S - Will add few more images later.
